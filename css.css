@@ -1,0 +1,44 @@
+<!DOCTYPE css>
+
+body {
+   margin: 0;
+}
+.icon-bar {
+   width: 97%;
+   background-color: #444444;
+   overflow: auto;
+}
+.cor-fundo{
+	background-color: silver;
+}
+.tela-inteira{
+  min-height: 100vh;
+  font-size: 20px;
+  font-family: Calibri;
+  background-color: #202124;
+  text-decoration: none;
+}
+.textos{
+	font-size: 16px;
+	font-weight: bold;
+	font-style: italic;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: georgian;
+}
+.icon-bar a {
+   float: left;
+   width: 16%;
+   text-align: center;
+   padding: 4px 1;
+   transition: all 0.3s ease;
+   color: white;
+   font-size: 15px;
+   text-decoration: none;
+}
+.icon-bar a:hover {
+   background-color: #6495ED;
+}
+.active {
+   background-color: #003153;
+}

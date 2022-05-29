@@ -15,6 +15,7 @@ body {
    color: white;
    font-size: 15px;
    text-decoration: none;
+   flex: 1;
 }
 .icon-bar a:hover {
    background-color: #6495ED;

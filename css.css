@@ -1,5 +1,3 @@
-<!DOCTYPE css>
-
 body {
    margin: 0;
 }
@@ -8,6 +6,18 @@ body {
    overflow: auto;
    display:flex;
    flex-wrap: wrap;
+   justify-content: space-around;
+}
+.icon-bar a {
+   text-align: center;
+   padding: 4px 5px;
+   transition: all 0.3s ease;
+   color: white;
+   font-size: 15px;
+   text-decoration: none;
+}
+.icon-bar a:hover {
+   background-color: #6495ED;
 }
 .cor-fundo{
 	background-color: silver;
@@ -26,17 +36,6 @@ body {
 	color: #FFFFFF;
 	text-align: center;
 	font-family: georgian;
-}
-.icon-bar a {
-   text-align: center;
-   padding: 4px 1;
-   transition: all 0.3s ease;
-   color: white;
-   font-size: 15px;
-   text-decoration: none;
-}
-.icon-bar a:hover {
-   background-color: #6495ED;
 }
 .active {
    background-color: #003153;

@@ -4,9 +4,10 @@ body {
    margin: 0;
 }
 .icon-bar {
-   width: 97%;
    background-color: #444444;
    overflow: auto;
+   display:flex;
+   flex-wrap: wrap;
 }
 .cor-fundo{
 	background-color: silver;
@@ -27,8 +28,6 @@ body {
 	font-family: georgian;
 }
 .icon-bar a {
-   float: left;
-   width: 16%;
    text-align: center;
    padding: 4px 1;
    transition: all 0.3s ease;

@@ -18,7 +18,7 @@ body {
    flex: 1;
 }
 .icon-bar a:hover {
-   background-color: #6495ED;
+   background-color: #6494ed75;
 }
 .cor-fundo{
 	background-color: silver;

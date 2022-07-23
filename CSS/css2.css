@@ -17,6 +17,11 @@ body {
 	border-color: #FFFFFF;
 }
 
+.p:hover {
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
 p:hover {
   cursor: pointer;
   color: #707070; 

@@ -17,8 +17,9 @@ body {
 	border-color: #FFFFFF;
 }
 
-.hinos:hover {
-  color: #5f5f5f;
+p:hover {
+  cursor: pointer;
+  color: #707070; 
 }
 
 .links{

@@ -1,6 +1,7 @@
 body {
    margin: 0;
 }
+
 .icon-bar {
    background-color: #444444;
    overflow: auto;
@@ -8,6 +9,7 @@ body {
    flex-wrap: wrap;
    justify-content: space-around;
 }
+
 .icon-bar a {
    text-align: center;
    padding: 4px 5px;
@@ -17,12 +19,15 @@ body {
    text-decoration: none;
    flex: 1;
 }
+
 .icon-bar a:hover {
    background-color: #6494ed75;
 }
+
 .cor-fundo{
 	background-color: silver;
 }
+
 .tela-inteira{
   min-height: 100vh;
   font-size: 20px;
@@ -30,6 +35,12 @@ body {
   background-color: #202124;
   text-decoration: none;
 }
+
+#text-sel {
+   margin-right: 3px;
+   margin-left: 3px;
+}
+
 .textos{
 	font-size: 16px;
 	font-weight: bold;
@@ -38,6 +49,7 @@ body {
 	text-align: center;
 	font-family: georgian;
 }
+
 .active {
    background-color: #003153;
 }

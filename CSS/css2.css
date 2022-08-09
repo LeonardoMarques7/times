@@ -48,6 +48,11 @@ section {
   font-size: 20px;
 }
 
+.text-div{
+   background-color: gray;
+   border: solid 1px white;
+}
+
 .section-logo {
   width: 100%;
   max-width: 300px;

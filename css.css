@@ -50,6 +50,11 @@ body {
 	font-family: georgian;
 }
 
+.text-div{
+   background-color: gray;
+   border: solid 1px white;
+}
+
 .active {
    background-color: #003153;
 }
